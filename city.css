@@ -1,0 +1,26 @@
+.inline, .inline2 {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between image and text */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.inline img, .inline2 img {
+    max-width: 50%;
+    height: auto;
+    border: #333 solid;
+    border-radius: 20px;
+}
+
+.inline2 {
+    flex-direction: row-reverse; /* Reverses the order: image on right, text on left */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
